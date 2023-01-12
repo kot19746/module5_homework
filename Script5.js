@@ -10,3 +10,6 @@ for (index = 0; index < myArr.length; ++index) {
   console.log(myArr[index])
 }
 
+//или так:
+myArr.forEach(el => console.log(el))
+
