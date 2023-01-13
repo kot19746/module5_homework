@@ -38,3 +38,20 @@
 Создайте произвольный массив Map. Получите его ключи и выведите в консоль все значения 
 в виде «Ключ — Х, значение — Y».
 Используйте шаблонные строки.
+----------------------------------------------------------------------------------------------------
+
+Tâche 1. Ecrire un programme qui fonctionnerait comme suit : une valeur est entrée à l'invite. En utilisant le plus unaire (opérateur arithmétique), vous devez le convertir en nombre, puis vérifier avec typeof s'il appartient à l'ensemble Number. S'il s'agit d'un nombre, indiquez à la console s'il est pair ou impair. S'il ne s'agit pas d'un chiffre, écrivez : "Oups, on dirait que vous avez fait une erreur." *NaN, bien que de type Nombre, n'est pas un nombre. Ajoutez une vérification distincte pour cette valeur.
+
+Tâche 2. Soit une variable x, qui peut prendre n'importe quelle valeur. Écrivez un programme qui, selon le type de données x, affiche un message du type : "x est un nombre" dans la console. Décrivez trois cas : lorsque x = nombre, chaîne ou booléen. Dans les autres cas, affichez le message : "Le type de x n'est pas défini." Remarque : Vous n'avez pas besoin d'utiliser promt pour cette tâche.
+
+Tâche 3. Étant donné une chaîne. Il est nécessaire de sortir la version inversée sur la console. Par exemple, "Hello" -> "olleH".
+
+Tâche 4. Écrire un nombre entier aléatoire dans l'intervalle [0 ; 100]. Utilisez l'objet Math.
+
+Tâche 5. Un tableau arbitraire est donné. Vous devez imprimer le nombre d'éléments du tableau, puis le parcourir et imprimer chaque élément du tableau sur la console.
+
+Tâche 6. Un tableau est donné. Vérifiez si les éléments du tableau sont identiques et affichez le résultat vrai ou faux sur la console. Nous ne parlons pas de deux éléments identiques se tenant côte à côte, mais de chacun d'eux. Vérifie si tous les éléments d'un tableau sont identiques.
+
+Tâche 7. Un tableau est donné. Vous devez imprimer sur la console le nombre d'éléments pairs et impairs dans le tableau. S'il y a un élément zéro dans le tableau, alors il est pris en compte et affiché séparément. Lors de l'exécution d'une tâche, il est nécessaire de tenir compte du fait qu'un tableau peut contenir non seulement des nombres, mais également, par exemple, des signes, null, etc.
+
+Tâche 8. Créer un tableau Map arbitraire. Obtenez ses clés et affichez toutes les valeurs sur la console sous la forme "Clé - X, valeur - Y". Utilisez des chaînes de modèle.
