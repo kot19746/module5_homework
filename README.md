@@ -38,7 +38,7 @@
 Создайте произвольный массив Map. Получите его ключи и выведите в консоль все значения 
 в виде «Ключ — Х, значение — Y».
 Используйте шаблонные строки.
-----------------------------------------------------------------------------------------------------
+
 
 Tâche 1. Ecrire un programme qui fonctionnerait comme suit : une valeur est entrée à l'invite. En utilisant le plus unaire (opérateur arithmétique), vous devez le convertir en nombre, puis vérifier avec typeof s'il appartient à l'ensemble Number. S'il s'agit d'un nombre, indiquez à la console s'il est pair ou impair. S'il ne s'agit pas d'un chiffre, écrivez : "Oups, on dirait que vous avez fait une erreur." *NaN, bien que de type Nombre, n'est pas un nombre. Ajoutez une vérification distincte pour cette valeur.
 
