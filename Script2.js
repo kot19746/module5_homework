@@ -9,7 +9,7 @@
 
 let x = undefined ;
 switch (typeof  x) {
-    case "number";
+    case "number":
         console.log('x — число');
         break
     case "string":
