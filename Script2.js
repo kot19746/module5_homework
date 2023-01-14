@@ -8,12 +8,13 @@
 
 
 let x = undefined ;
-if (typeof x === "number") {
-  console.log('x — число')
-} else if (typeof x === "string") {
-  console.log('x - строка')
-} else if (typeof x === "boolean") {
-  console.log('x - логическое')
-} else if (typeof x !== "number" || typeof x !== "string" || typeof x !== "boolean" ) {
-  console.log('Тип x не определён')
+switch (typeof  x) {
+    case "number":
+        console.log('x — число');
+    case "string":
+        console.log('x - строка');
+    case "boolean":
+        console.log('x - логическое');
+    default:
+        console.log('Тип x не определён');
 }
