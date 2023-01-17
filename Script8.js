@@ -4,15 +4,12 @@
 в виде «Ключ — Х, значение — Y».
 Используйте шаблонные строки.*/
 
-let myMap = new Map()
-myMap.set('BMW', 'Черный')
-myMap.set('AUDI', 'Белый')
-myMap.set('MERCEDES', 'Серый')
-for (let x of myMap.keys()) {
-  let result = `${'ключ это '}${x}`
-  console.table(result)
+let myMap = new Map([
+ ['BMW', 'Черный'],
+ ['AUDI', 'Белый'],
+ ['MERCEDES', 'Серый']
+]);
+for (let keyProp of myMap){
+ console.log(`Ключ - ${keyProp[0]}, Значение - ${keyProp[1]}`);
 }
-for (let y of myMap.values()) {
-  let result = `${'значение это '}${y}`
-  console.table(result)
-}
+
